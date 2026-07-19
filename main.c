@@ -1,7 +1,12 @@
 #include <stdio.h>
 
+float saberi(float a, float b) {
+    return a + b;
+}
+
 int main() {
     int izbor;
+    float x, y;
 
     printf("=== KALKULATOR ===\n");
     printf("1. Sabiranje\n");
@@ -12,7 +17,11 @@ int main() {
     printf("Izbor: ");
     scanf("%d", &izbor);
 
-    printf("Izabrana opcija: %d\n", izbor);
+    if (izbor == 1) {
+        printf("Unesi dva broja: ");
+        scanf("%f %f", &x, &y);
+        printf("Rezultat: %.2f\n", saberi(x, y));
+    }
 
     return 0;
 }
