@@ -5,7 +5,7 @@ int main() {
     int izbor;
     float x, y;
 
-    printf("=== KALKULATOR ===\n");
+    printf("=== MOJ KALKULATOR ===\n");
     printf("1. Sabiranje\n");
     printf("2. Oduzimanje\n");
     printf("3. Mnozenje\n");
