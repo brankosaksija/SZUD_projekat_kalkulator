@@ -34,6 +34,8 @@ int main() {
         } else {
             printf("Rezultat: %.2f\n", podeli(x, y));
         }
+    } else if (izbor != 0) {
+        printf("Nepostojeca opcija!\n");
     }
 
     return 0;
