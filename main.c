@@ -8,9 +8,12 @@ float oduzmi(float a, float b) {
     return a - b;
 }
 
-
 float pomnozi(float a, float b) {
     return a * b;
+}
+
+float podeli(float a, float b) {
+    return a / b;
 }
 
 int main() {
@@ -38,6 +41,14 @@ int main() {
         printf("Unesi dva broja: ");
         scanf("%f %f", &x, &y);
         printf("Rezultat: %.2f\n", pomnozi(x, y));
+    } else if (izbor == 4) {
+        printf("Unesi dva broja: ");
+        scanf("%f %f", &x, &y);
+        if (y == 0) {
+            printf("Greska: deljenje nulom nije dozvoljeno!\n");
+        } else {
+            printf("Rezultat: %.2f\n", podeli(x, y));
+        }
     }
 
     return 0;
