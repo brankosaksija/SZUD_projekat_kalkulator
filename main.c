@@ -4,6 +4,10 @@ float saberi(float a, float b) {
     return a + b;
 }
 
+float oduzmi(float a, float b) {
+    return a - b;
+}
+
 int main() {
     int izbor;
     float x, y;
@@ -21,6 +25,10 @@ int main() {
         printf("Unesi dva broja: ");
         scanf("%f %f", &x, &y);
         printf("Rezultat: %.2f\n", saberi(x, y));
+    } else if (izbor == 2) {
+        printf("Unesi dva broja: ");
+        scanf("%f %f", &x, &y);
+        printf("Rezultat: %.2f\n", oduzmi(x, y));
     }
 
     return 0;
