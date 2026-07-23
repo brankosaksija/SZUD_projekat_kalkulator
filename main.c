@@ -8,6 +8,11 @@ float oduzmi(float a, float b) {
     return a - b;
 }
 
+
+float pomnozi(float a, float b) {
+    return a * b;
+}
+
 int main() {
     int izbor;
     float x, y;
@@ -29,6 +34,10 @@ int main() {
         printf("Unesi dva broja: ");
         scanf("%f %f", &x, &y);
         printf("Rezultat: %.2f\n", oduzmi(x, y));
+    } else if (izbor == 3) {
+        printf("Unesi dva broja: ");
+        scanf("%f %f", &x, &y);
+        printf("Rezultat: %.2f\n", pomnozi(x, y));
     }
 
     return 0;
