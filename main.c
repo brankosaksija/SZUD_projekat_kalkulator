@@ -1,20 +1,5 @@
 #include <stdio.h>
-
-float saberi(float a, float b) {
-    return a + b;
-}
-
-float oduzmi(float a, float b) {
-    return a - b;
-}
-
-float pomnozi(float a, float b) {
-    return a * b;
-}
-
-float podeli(float a, float b) {
-    return a / b;
-}
+#include "funkcije.h"
 
 int main() {
     int izbor;
